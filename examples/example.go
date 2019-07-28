@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/shirdonl/tplinkhs110"
+	"github.com/shirdonl/TP-Link-HS110"
 )
 
 func main() {
-	plug := tplinkhs110.Hs1xxPlug{IPAddress: "192.168.0.196"}
+	plug := tplinkhs110.Hs110Plug{IPAddress: "192.168.0.196"}
 	results, err := plug.MeterInfo()
 	if err != nil {
 		fmt.Println("err:", err)
