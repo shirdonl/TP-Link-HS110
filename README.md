@@ -2,7 +2,7 @@
 
 TP-Link has a set of interesting WiFi smart plugs -- the [HS100](http://www.tp-link.com/en/products/details/HS100.html) which provides remote access and control for a power plug, and [HS110](http://www.tp-link.com/en/products/details/cat-5258_HS110.html) which is essentially HS100 but with energy monitoring.
 
-`hs1xxplug` is a Go library for accessing these smart plugs, based on the information available above. I have tested them out with a HS110 only and it works perfectly fine. An example of how to use this library is:
+`tplinkhs110` is a Go library for accessing these smart plugs, based on the information available above. I have tested them out with a HS110 only and it works perfectly fine. An example of how to use this library is:
 
 ```go
 package main
